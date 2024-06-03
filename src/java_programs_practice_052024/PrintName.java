@@ -1,4 +1,4 @@
-package java_programs_practice_2052024;
+package java_programs_practice_052024;
 
 public class PrintName {
 	public static void main(String[] args) {
