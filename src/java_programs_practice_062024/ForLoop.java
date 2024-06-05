@@ -1,5 +1,7 @@
 package java_programs_practice_062024;
 
+import java.util.Iterator;
+
 public class ForLoop {
 	public static void main(String[] args) {
 		int[] a = new int[8];
@@ -21,6 +23,8 @@ public class ForLoop {
 		}
 		// comment
 		
-
+		int b[] = {1,2,3};
+		System.out.println(b.length);
+		
 	}
 }
