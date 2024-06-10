@@ -10,8 +10,10 @@ public class WrapperClasses {
 		Integer ai = a;
 		ArrayList<Integer> intList = new ArrayList<Integer>();
 		intList.add(ai);
+		intList.add(b);
+		System.out.println(intList);
 		
-		String numStrng = "123";
+		String numStrng = "12";
 		int c =Integer.parseInt(numStrng);
 		System.out.println(c);
 		
