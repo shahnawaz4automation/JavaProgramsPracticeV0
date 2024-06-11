@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
+import org.apache.commons.lang3.RandomStringUtils;
+
 public class ArrayListDemo1 {
 
 	@SuppressWarnings({ "unchecked", "unchecked" })
@@ -74,7 +76,6 @@ public class ArrayListDemo1 {
 		Collections.shuffle(al1);
 		System.out.println(al1);
 		
-
 
 	}
 
