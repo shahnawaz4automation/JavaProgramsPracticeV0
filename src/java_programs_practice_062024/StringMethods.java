@@ -41,7 +41,7 @@ public class StringMethods {
 		a.substring(0,2);
 		a.toUpperCase();
 		a.split(" ");
-		System.out.println(a==b);
+		
 		
 		String email = "shah4corp@gmail.com";
 		String e[] = email.split("@");
