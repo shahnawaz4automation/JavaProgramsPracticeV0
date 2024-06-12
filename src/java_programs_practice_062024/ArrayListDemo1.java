@@ -72,6 +72,8 @@ public class ArrayListDemo1 {
 		
 		Collections.sort(al1,Collections.reverseOrder());
 		System.out.println(al1);
+		Collections.reverse(al1);
+		System.out.println("-----------"+al1);
 		
 		Collections.shuffle(al1);
 		System.out.println(al1);
