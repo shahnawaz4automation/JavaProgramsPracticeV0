@@ -19,6 +19,7 @@ public class LinkedListDemo1 {
 		l.add(true);
 		l.add(null);
 		
+		
 		System.out.println(l); //[100, welcome, 15.5, A, true, null]
 		
 		System.out.println(l.size()); //6
