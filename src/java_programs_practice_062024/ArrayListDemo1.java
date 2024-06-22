@@ -4,6 +4,8 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 import org.apache.commons.lang3.RandomStringUtils;
 
@@ -77,7 +79,6 @@ public class ArrayListDemo1 {
 		
 		Collections.shuffle(al1);
 		System.out.println(al1);
-		
 
 	}
 
