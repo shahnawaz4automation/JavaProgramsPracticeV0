@@ -13,12 +13,4 @@ public class SumOfArray {
 		System.out.println(sum);
 		//System.out.println(num);
 	}
-	
-	public void sum(int a) {
-		System.out.println(a);
-	}
-	
-	public void sum(double b) {
-		System.out.println(b);
-	}
 }
