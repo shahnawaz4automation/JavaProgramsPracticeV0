@@ -8,7 +8,7 @@ public class OneDimentionalArray {
 		a[0] = 1;
 		a[1] = 2;
 		a[2] = 3;
-
+		a[3] = 4;
 		//System.out.println(a[0]);
 
 		int[] b = { 1, 2, 3 };
