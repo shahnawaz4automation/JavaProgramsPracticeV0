@@ -3,7 +3,6 @@ package java_programs_practice_072024;
 public class MultiDimentionalArray {
 
 	public static void main(String[] args) {
-		// int[] a = new int[3];
 		int[][] a = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9, 10, 11, 12, 13 }, {1,2,3}};
 
 		System.out.println(a.length);
