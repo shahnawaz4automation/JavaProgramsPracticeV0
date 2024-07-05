@@ -11,6 +11,7 @@ public class addElementsOfArray {
 		for (int i = 0; i < a.length; i++) {
 			sum = sum + a[i];
 		}
-		System.out.print(sum);
+		System.out.println(sum);
+		System.out.println("Keep learning");
 	}
 }
