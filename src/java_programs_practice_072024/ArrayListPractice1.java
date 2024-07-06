@@ -3,11 +3,12 @@ package java_programs_practice_072024;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 
 public class ArrayListPractice1 {
 
 	public static void main(String[] args) {
-		ArrayList al = new ArrayList();
+		List al = new ArrayList();
 		al.add(100);
 		al.add("welcome");
 		al.add(15.5);
