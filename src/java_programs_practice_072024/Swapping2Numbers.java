@@ -6,9 +6,11 @@ public class Swapping2Numbers {
 	public static void main(String[] args) {
 		Swapping2Numbers s = new Swapping2Numbers();
 		s.swapNumbers(2, 3);
+		
+		swapNumbers(4, 123);
 	}
 	
-	public void swapNumbers(int a, int b) {
+	public static void swapNumbers(int a, int b) {
 		int c = 0;
 		c=a;
 		a=b;
