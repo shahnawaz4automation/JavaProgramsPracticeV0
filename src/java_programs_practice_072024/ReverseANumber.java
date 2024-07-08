@@ -16,5 +16,11 @@ public static void main(String[] args) {
 	StringBuilder rev = sb1.reverse();
 	
 	System.out.println(rev);
+	
+	String s1 = String.valueOf(num);
+	
+	StringBuffer sb2 = new StringBuffer(s1);
+	StringBuffer sb3 = sb2.reverse();
+	System.out.println(sb3);
 }
 }
