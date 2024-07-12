@@ -15,7 +15,7 @@ public class ArrayListPractice1 {
 		al.add('A');
 		al.add(true);
 		
-		
+		System.out.println();
 		System.out.println(al);
 		
 		System.out.println(al.size());
