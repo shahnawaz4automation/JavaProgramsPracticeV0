@@ -1,9 +1,9 @@
 package java_programs_practice_072024;
 
-public class Demo {
+public class WrapperClassDemo {
 	public static void main(String[] args) {
         // Parsing strings to primitive types
-        int intValue = Integer.parseInt("123");
+        int intValue = Integer.parseInt("1");
         double doubleValue = Double.parseDouble("3.14");
         
         // Converting primitive types to strings
