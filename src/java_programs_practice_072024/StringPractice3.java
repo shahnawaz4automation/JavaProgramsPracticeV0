@@ -21,5 +21,13 @@ public class StringPractice3 {
 			System.out.print("\t");
 			System.out.println();
 		}
+		try {
+			
+		}catch (ArithmeticException e) {
+			// TODO: handle exception
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
 	}
 }
