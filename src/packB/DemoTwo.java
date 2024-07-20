@@ -1,7 +1,9 @@
 package packB;
 
 import packA.*;
-public class DemoTwo {
+
+public class DemoTwo extends ClassAOne{
+		
 	public static void main(String[] args) {
 		ClassAOne cAOne = new ClassAOne();
 		System.out.println(cAOne.aOneVariable);
