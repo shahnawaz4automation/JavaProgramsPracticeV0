@@ -3,6 +3,7 @@ package java_programs_practice_072024;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ArrayListPractice1 {
@@ -15,6 +16,10 @@ public class ArrayListPractice1 {
 		al.add('A');
 		al.add(true);
 		
+		LinkedList ll1 = new LinkedList();
+		ll1.addAll(al);
+		System.out.println(ll1);
+		System.out.println("----------------------");
 		System.out.println();
 		System.out.println(al);
 		
@@ -75,6 +80,8 @@ public class ArrayListPractice1 {
 		
 		al2.clear();
 		System.out.println(al2);
+		
+		
 	}
 
 }
