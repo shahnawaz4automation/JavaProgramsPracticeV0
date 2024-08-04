@@ -2,7 +2,7 @@ package java_programs_practice_082024;
 
 import java.util.Arrays;
 
-public class CountWordsOccurence {
+public class CountWordsOccurence030824 {
 	public static void main(String[] args) {
 		
 		String input = "This is a sample to sentence to count words.";
