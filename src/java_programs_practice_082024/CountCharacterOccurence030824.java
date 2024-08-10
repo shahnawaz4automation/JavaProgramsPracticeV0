@@ -11,7 +11,7 @@ public class CountCharacterOccurence030824 {
 				count++;
 			}
 		}
-		System.out.println();
+		System.out.println("Added this line in github");
 		System.out.println("Number of occurences of a is: "+count );
 	}
 
