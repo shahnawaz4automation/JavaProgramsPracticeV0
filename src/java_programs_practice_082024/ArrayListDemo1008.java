@@ -1,7 +1,5 @@
 package java_programs_practice_082024;
 
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -9,6 +7,8 @@ import java.util.List;
 public class ArrayListDemo1008 {
 
 	public static void main(String[] args) {
+		int CAMEL_COUNT = 3;
+		System.out.println(CAMEL_COUNT);
 		List<Object> al = new LinkedList<Object>();
 		al.add('a');
 		al.add("Sam");
