@@ -1,6 +1,6 @@
 package packA;
 
-public class Demo extends ClassAOne {
+public class Demo {
 	
 	public static void main(String[] args) {
 		ClassAOne cAOne = new ClassAOne();

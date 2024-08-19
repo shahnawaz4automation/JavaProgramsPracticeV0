@@ -1,6 +1,7 @@
 package packB;
 
-import packA.*;
+import packA.ClassAOne;
+import packA.ClassATwo;
 
 public class DemoTwo extends ClassAOne{
 		
@@ -8,6 +9,7 @@ public class DemoTwo extends ClassAOne{
 		ClassAOne cAOne = new ClassAOne();
 		System.out.println(cAOne.aOneVariable);
 		cAOne.aOneMethod();
+		cAOne.interfaceMethod1();
 
 		ClassATwo cATwo = new ClassATwo();
 		System.out.println(cATwo.aTwoVariable);

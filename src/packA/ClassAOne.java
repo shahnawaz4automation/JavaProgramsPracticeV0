@@ -1,6 +1,6 @@
 package packA;
 
- public class ClassAOne implements InterfaceA{
+public class ClassAOne implements InterfaceA{
 	public int aOneVariable = 5;
 
 	public void aOneMethod() {
