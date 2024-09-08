@@ -1,6 +1,6 @@
 package java_programs_practice_092024;
 
-public class SwappingTwoNumbers {
+public class A01SwappingTwoNumbers {
 
 	public static void main(String[] args) {
 		int a = 10;
