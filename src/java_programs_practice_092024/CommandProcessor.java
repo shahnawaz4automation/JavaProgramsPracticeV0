@@ -33,7 +33,6 @@ public class CommandProcessor {
 				break; // Exit the while loop entirely when 'exit' is entered
 			}
 		}
-
 		scanner.close();
 	}
 }
