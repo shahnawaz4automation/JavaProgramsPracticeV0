@@ -3,7 +3,7 @@ package packB;
 import packA.ClassAOne;
 import packA.ClassATwo;
 
-public class DemoTwo extends ClassAOne{
+public class DemoTwo{
 		
 	public static void main(String[] args) {
 		ClassAOne cAOne = new ClassAOne();
