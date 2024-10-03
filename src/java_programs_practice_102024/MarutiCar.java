@@ -12,9 +12,9 @@ public class MarutiCar implements Car {
 	}
 
 	public static void main(String[] args) {
-		MarutiCar car = new MarutiCar();
+		Car car = new MarutiCar();
 		car.transmissionMode();
 		car.customTransmissionMode();
-		System.out.println(car.wheels);
+		System.out.println(Car.wheels);
 	}
 }
