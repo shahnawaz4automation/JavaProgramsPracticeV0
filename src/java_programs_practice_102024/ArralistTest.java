@@ -9,10 +9,10 @@ import java.util.Set;
 public class ArralistTest {
 	public static void main(String[] args) {
 		ArrayList al = new ArrayList();
-		al.add("A");
-		al.add("welcome");
+		al.add("a");
+		al.add("w");
 		al.add("b");
-		al.add("d");
+		al.add("c");
 		al.add("g");
 		
 		/*//1. Using for loop
@@ -25,7 +25,7 @@ public class ArralistTest {
 		while (it.hasNext()) {
 			//System.out.println(it.next());
 		}*/
-		Collections.sort(al);
+		Collections.sort(al,Collections.reverseOrder());
 		System.out.println(al);
 	}
 }
