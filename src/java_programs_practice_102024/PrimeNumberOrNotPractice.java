@@ -3,6 +3,7 @@ package java_programs_practice_102024;
 import java.util.Scanner;
 
 public class PrimeNumberOrNotPractice {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number: ");
