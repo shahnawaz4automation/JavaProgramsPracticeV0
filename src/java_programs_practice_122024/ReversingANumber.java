@@ -7,14 +7,11 @@ public class ReversingANumber {
 		
 		StringBuffer sb = new StringBuffer(String.valueOf(a));
 		StringBuffer q = sb.reverse();
-		
 		System.out.println(q);
-		String s = q.toString();
-		int b = Integer.parseInt(s);
 		
-		System.out.println(b);
-		
-		
+		StringBuilder sb1 = new StringBuilder(String.valueOf(a));
+		StringBuilder sb2 = sb1.reverse();
+		System.out.println(sb2);
 	}
 
 }
