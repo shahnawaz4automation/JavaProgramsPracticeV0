@@ -10,5 +10,6 @@ public class StringSplitMethod {
 		}
 		
 		System.out.println(s[1]);
+		System.out.println("a"+ s[0] + "b");
 	}
 }
