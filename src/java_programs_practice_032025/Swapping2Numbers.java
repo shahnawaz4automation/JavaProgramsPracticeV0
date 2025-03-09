@@ -11,7 +11,8 @@ public class Swapping2Numbers {
 		a=b;
 		b=c;
 		
-		System.out.print(a);
+		System.out.println(a);
+		System.out.println(b);
 	}
 
 }
