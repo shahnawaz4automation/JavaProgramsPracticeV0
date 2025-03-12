@@ -16,7 +16,7 @@ public class Swapping2Numbers {
 		
 		System.out.println(c);
 
-		//Added comments from GIT.
+		Added comments from GIT.
 	}
 
 }
