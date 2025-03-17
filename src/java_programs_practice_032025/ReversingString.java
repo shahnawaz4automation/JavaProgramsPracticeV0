@@ -10,7 +10,7 @@ public class ReversingString {
 		
 		for(int i=len-1; i>=0 ; i--) {
 			a = a + a1[i];
-			continue;
+			//continue;
 		}
 		
 		System.out.println(a);
