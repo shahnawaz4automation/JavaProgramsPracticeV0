@@ -1,6 +1,6 @@
 package packA;
 
-public class ClassAOne implements InterfaceA{
+public class ClassAOne implements InterfaceA {
 	public int aOneVariable = 5;
 
 	public void aOneMethod() {
@@ -9,7 +9,6 @@ public class ClassAOne implements InterfaceA{
 
 	@Override
 	public void interfaceMethod1() {
-		/System.out.println("Interface method");
-		
+		System.out.println("Interface method");
 	}
 }
