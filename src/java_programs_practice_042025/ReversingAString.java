@@ -10,5 +10,7 @@ public class ReversingAString {
 		b = c;
 		
 		System.out.println(a + " " + b);
+		
+		System.out.println("Bismillah Hirrahman Nirrahim");
 	}
 }
