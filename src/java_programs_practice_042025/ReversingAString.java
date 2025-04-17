@@ -8,6 +8,7 @@ public class ReversingAString {
 		c = a;
 		a = b;
 		b = c;
+		
 		System.out.println(a + " " + b);
 	}
 }
