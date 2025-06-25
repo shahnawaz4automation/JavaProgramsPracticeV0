@@ -6,6 +6,11 @@ public class ReversingAnumber {
 		
 		String num1 = String.valueOf(num);
 		
+		StringBuffer sb = new StringBuffer(num1);
+		StringBuffer sb1 = sb.reverse();
+		System.out.println(sb1);
+		
+		
 		
 	}
 }
