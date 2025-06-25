@@ -4,6 +4,7 @@ public class ReversingAnumber {
 	public static void main(String[] args) {
 		int num = 12345;
 		
+		String num1 = String.valueOf(num);
 		
 		
 	}
