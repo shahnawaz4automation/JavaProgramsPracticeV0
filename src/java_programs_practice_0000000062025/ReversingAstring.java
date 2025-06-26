@@ -8,7 +8,6 @@ public class ReversingAstring {
 		char[] ar = str.toCharArray();
 
 		String new_str = "";
-
 		for (int i = ar.length - 1; i >= 0; i--) {
 			new_str = new_str + ar[i];
 		}
