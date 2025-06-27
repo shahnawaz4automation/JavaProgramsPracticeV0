@@ -2,7 +2,7 @@ package java_programs_practice_0000000062025;
 
 public class ValidatingNumberToBePalindrome {
 	public static void main(String[] args) {
-		int a = 1234;
+		int a = 121;
 		
 		String num = String.valueOf(a);
 		
@@ -12,5 +12,11 @@ public class ValidatingNumberToBePalindrome {
 		int b = Integer.parseInt(String.valueOf(sb1));
 		System.out.println(b);
 		
+		if (a==b) {
+			System.out.println("Input you provided is palindrome");
+		}
+		else {
+			System.out.println("Input you provided is not palindrome");
+		}
 	}
 }
