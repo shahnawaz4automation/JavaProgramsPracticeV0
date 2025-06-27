@@ -5,5 +5,12 @@ public class ValidatingNumberToBePalindrome {
 		int a = 1234;
 		
 		String num = String.valueOf(a);
+		
+		StringBuffer sb = new StringBuffer();
+		sb.append(num);
+		StringBuffer sb1 = sb.reverse();
+		int b = Integer.parseInt(String.valueOf(sb1));
+		System.out.println(b);
+		
 	}
 }
