@@ -6,7 +6,7 @@ public class ValidatingStringToBePalindrome {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter the text: ");
-		String text = new String (scan.next());
+		String text = scan.next();
 		String sam = new String ("madam");
 		System.out.println("Thanks!..");
 		
