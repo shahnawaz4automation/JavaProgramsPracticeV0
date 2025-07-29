@@ -1,4 +1,4 @@
-package programs_practice_ABC062025;
+package programs_practice_062025.copy;
 
 public class ValidatingNumberToBePalindrome {
 	public static void main(String[] args) {

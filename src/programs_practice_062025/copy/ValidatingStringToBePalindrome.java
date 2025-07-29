@@ -1,4 +1,4 @@
-package programs_practice_ABC062025;
+package programs_practice_062025.copy;
 
 import java.util.Scanner;
 
