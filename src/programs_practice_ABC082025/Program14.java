@@ -1,4 +1,4 @@
-package programs_practice_062025.copy;
+package programs_practice_ABC082025;
 
 public class Program14 {
 
