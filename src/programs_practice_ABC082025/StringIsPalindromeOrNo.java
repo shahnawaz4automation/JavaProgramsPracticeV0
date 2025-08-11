@@ -7,21 +7,21 @@ public class StringIsPalindromeOrNo {
 		char[] a = str.toCharArray();
 		String num = "";
 		str = num;
-		for (int i = a.length-1; i >=0 ; i--) {
-			rev_str = rev_str +a[i];
+		for (int i = a.length - 1; i >= 0; i--) {
+			rev_str = rev_str + a[i];
 		}
-		
+
 		System.out.println(rev_str);
-		
-		if(str.equals(rev_str)) {
+
+		if (str.equals(rev_str)) {
 			System.out.println("String is palindrome");
-		}else  {
+		} else {
 			System.out.println("String is not palindrome");
 		}
-		
-		if(str==rev_str) {
+
+		if (str == rev_str) {
 			System.out.println("Both pointing to same object");
-		}else {
+		} else {
 			System.out.println("Not pointing to same object");
 		}
 	}
