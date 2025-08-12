@@ -19,9 +19,11 @@ public class StringIsPalindromeOrNo {
 			System.out.println("String is not palindrome");
 		}
 
-		if (str == rev_str) {
+		if (str == rev_str) 
+		{
 			System.out.println("Both pointing to same object");
-		} else {
+		} else 
+		{
 			System.out.println("Not pointing to same object");
 		}
 	}
