@@ -13,9 +13,11 @@ public class StringIsPalindromeOrNo {
 
 		System.out.println(rev_str);
 
-		if (str.equals(rev_str)) {
+		if (str.equals(rev_str)) 
+		{
 			System.out.println("String is palindrome");
-		} else {
+		} else
+		{
 			System.out.println("String is not palindrome");
 		}
 
