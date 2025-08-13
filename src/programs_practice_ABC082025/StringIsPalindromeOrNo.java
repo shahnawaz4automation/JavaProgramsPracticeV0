@@ -7,7 +7,8 @@ public class StringIsPalindromeOrNo {
 		char[] a = str.toCharArray();
 		String num = "";
 		str = num;
-		for (int i = a.length - 1; i >= 0; i--) {
+		for (int i = a.length - 1; i >= 0; i--)
+		{
 			rev_str = rev_str + a[i];
 		}
 
