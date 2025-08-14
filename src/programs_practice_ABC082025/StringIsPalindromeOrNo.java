@@ -1,6 +1,7 @@
 package programs_practice_ABC082025;
 
 public class StringIsPalindromeOrNo {
+	
 	public static void main(String[] args) {
 		String str = "mom";
 		String rev_str = "";
