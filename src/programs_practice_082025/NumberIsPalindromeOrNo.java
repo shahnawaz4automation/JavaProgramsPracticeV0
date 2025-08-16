@@ -1,4 +1,4 @@
-package programs_practice_ABC082025;
+package programs_practice_082025;
 
 public class NumberIsPalindromeOrNo {
 	
