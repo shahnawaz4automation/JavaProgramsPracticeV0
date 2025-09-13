@@ -1,4 +1,4 @@
-package programs_practice_ABC082025;
+package programs_practice_2025;
 
 public class ReversingAstring {
 	public static void main(String[] args) {
