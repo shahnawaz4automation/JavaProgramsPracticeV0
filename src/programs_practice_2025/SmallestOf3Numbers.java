@@ -5,10 +5,10 @@ public class SmallestOf3Numbers {
 		int a = 3;
 		int b = 3;
 		int c = 1;
-		
-		if(a==b || b==c || c==a) {
+
+		if (a == b || b == c || c == a) {
 			System.out.println("There are 2 same variables");
-		}else if (a <= b && a <= c) {
+		} else if (a <= b && a <= c) {
 			System.out.println("a is smallest");
 		} else if (b <= a && b <= c) {
 			System.out.println("b is smallest");
