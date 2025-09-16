@@ -7,7 +7,7 @@ public class SmallestOf3Numbers {
 		int c = 1;
 
 		if (a == b || b == c || c == a) {
-			
+
 			System.out.println("There are 2 same variables");
 		} else if (a <= b && a <= c) {
 			System.out.println("a is smallest");
