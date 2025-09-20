@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class VotingEligibility {
 	public static void main(String[] args) {
+		
 		//Enter the age of person
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter age of person: ");
