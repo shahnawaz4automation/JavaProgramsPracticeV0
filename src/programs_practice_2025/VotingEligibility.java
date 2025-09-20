@@ -8,6 +8,7 @@ public class VotingEligibility {
 		//Enter the age of person
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter age of person: ");
+		
 		int age = scan.nextInt();
 
 		if (age >= 18) {
