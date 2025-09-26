@@ -12,7 +12,7 @@ public class YearIsLeapYearOrNo {
 		if(year%4==0) {
 			if(year%100==0) {
 			else(year%400==0) {
-					status = 
+					status = true;
 				}
 			}
 		}
