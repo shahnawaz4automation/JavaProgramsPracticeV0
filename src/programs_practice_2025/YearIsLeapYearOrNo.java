@@ -4,17 +4,15 @@ import java.util.Scanner;
 
 public class YearIsLeapYearOrNo {
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int year = scan.nextInt();
-		
-		boolean status = false;
-		
-		if(year%4==0) {
-			if(year%100==0) {
-			else(year%400==0) {
-					status = true;
-				}
-			}
-		}
+		Scanner scanner = new Scanner(System.in);
+		int year = scanner.nextInt();
+				
+		if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
+            System.out.println(year + " is a Leap Year.");
+        } else {
+            System.out.println(year + " is NOT a Leap Year.");
+        }
+
+        scanner.close();
 	}
 }
