@@ -9,5 +9,7 @@ public class NumberEvenOrOdd {
 		} else {
 			System.out.println("Odd number");
 		}
+		
+		System.out.println(7+(3*5)*(4/2)+(5%3)-1);
 	}
 }
