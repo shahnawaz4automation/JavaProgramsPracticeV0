@@ -14,5 +14,7 @@ public class LuckyNumberChecker {
 		else {
 			System.out.println("Try another number");
 		}
+		double pi = Math.PI;
+		System.out.println(pi);
 	}
 }
