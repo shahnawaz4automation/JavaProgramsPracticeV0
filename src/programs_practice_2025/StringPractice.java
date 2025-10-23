@@ -20,10 +20,6 @@ public class StringPractice {
 		System.out.println(s2+" Bahadur");
 		System.out.println(s2);
 		
-//		int a[] = { 1, 2, 3 };
-//		System.out.println(a.length);
-//		for (int i = 0; i < a.length; i++) {
-//			System.out.println(a[i]);
-//		}
+
 	}
 }
