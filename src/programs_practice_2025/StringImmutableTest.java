@@ -13,6 +13,7 @@ public class StringImmutableTest {
         
         System.out.println(str1.replaceAll("\\s", ""));
         
-        
+        System.out.println(str1);
+        System.out.println(str2);        
 	}
 }
