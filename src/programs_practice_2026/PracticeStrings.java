@@ -1,13 +1,11 @@
 package programs_practice_2026;
 
 public class PracticeStrings {
-
-	int age = 35;
-	double salary = 50000;
-	String emp_name = "Shahnawaz";
-	boolean isEmployed = true;
-
 	public static void main(String[] args) {
+		int age = 35;
+		double salary = 50000;
+		String emp_name = "Shahnawaz";
+		boolean isEmployed = true;
 
 		System.out.println("Name: " + emp_name);
 		System.out.println("Age: " + age);
