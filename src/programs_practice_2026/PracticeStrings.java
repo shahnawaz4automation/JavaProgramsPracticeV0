@@ -8,6 +8,8 @@ public class PracticeStrings {
 		boolean isEmployed = true;
 
 		System.out.println("Name: " + emp_name);
-
+        System.out.println("Age: "+ age);
+        System.out.println("Salary: "+ salary);
+        System.out.println("Is Employed: "+ isEmployed);
 	}
 }
