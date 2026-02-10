@@ -7,5 +7,6 @@ public class Day3Methods {
 public static void main(String[] args) {
 	Hello();
 	Hello();
+	Hello();
 }
 }
