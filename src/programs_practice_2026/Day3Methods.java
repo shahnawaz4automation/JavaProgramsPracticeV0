@@ -5,7 +5,7 @@ public class Day3Methods {
 		System.out.println(hello);
 	}
 public static void main(String[] args) {
-	Hello(null);
+	Hello("Sam Bahadur");
 	
 }
 }
