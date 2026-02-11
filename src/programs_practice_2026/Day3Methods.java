@@ -8,5 +8,6 @@ public static void main(String[] args) {
 	Hello();
 	Hello();
 	Hello();
+	Hello();
 }
 }
