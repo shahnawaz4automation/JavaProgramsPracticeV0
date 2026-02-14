@@ -8,5 +8,6 @@ public static void main(String[] args) {
 	Hello("Sam Bahadur");
 	Hello(null);
 	
+	
 }
 }
