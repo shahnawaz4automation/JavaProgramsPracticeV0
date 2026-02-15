@@ -4,10 +4,9 @@ public class Day3Methods {
 	public static void Hello(String hello) {
 		System.out.println(hello);
 	}
-public static void main(String[] args) {
-	Hello("Sam Bahadur");
-	Hello(null);
-	
-	
-}
+
+	public static void main(String[] args) {
+		Hello("Sam Bahadur");
+		Hello(null);
+	}
 }
