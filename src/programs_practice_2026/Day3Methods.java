@@ -9,5 +9,4 @@ public class Day3Methods {
 		Hello("Sam Bahadur");
 		Hello(null);
 	}
-
 }
