@@ -8,6 +8,5 @@ public class Day3Methods {
 	public static void main(String[] args) {
 		Hello("Sam Bahadur");
 		Hello(null);
-		
 	}
 }
