@@ -8,8 +8,6 @@ public class Day3Methods {
 	public static void main(String[] args) {
 		String abc = Hello("Sam Bahadur");
 		System.out.println(abc);
-		Hello("");
-		Hello(" ");
 		Hello("Sam Bahadur");
 	}
 }
