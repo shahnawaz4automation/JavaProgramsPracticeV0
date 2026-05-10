@@ -8,7 +8,6 @@ public class StringsConcept {
 		
 		String b = "I am an Engineer";
 		System.out.println("Result of addition: "+a+b);
-		
 		System.out.println("Result of concatenation: "+ a.concat(b));
 		System.out.println("Result of concatenation: "+ b.concat(a));
 		
