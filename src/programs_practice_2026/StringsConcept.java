@@ -13,5 +13,7 @@ public class StringsConcept {
 		System.out.println("Result of concatenation: " + b.concat(a));
 
 		System.out.println("Result of trim: " + a.trim());
+		
+		System.out.println(a+b);
 	}
 }
