@@ -1,0 +1,25 @@
+package programs_practice_2026;
+
+public class DebugDemo {
+	
+	public static String returnString(String name) {
+		return name;
+		
+	}
+	
+
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 20;
+
+        int sum = a + b;
+
+        System.out.println(sum);
+
+        String name = "Shahnawaz";
+        String newName = returnString("Shahnawazm");
+        System.out.println(newName);
+        System.out.println(name.length());
+    }
+}
