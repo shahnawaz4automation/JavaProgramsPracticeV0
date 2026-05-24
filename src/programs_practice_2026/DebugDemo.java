@@ -3,7 +3,9 @@ package programs_practice_2026;
 public class DebugDemo {
 	
 	public static String returnString(String name) {
-		return name;
+		String iname = "returned by class and method: DebugDemo.returnString(): ";
+		iname = iname + name;
+		return iname;
 		
 	}
 	
