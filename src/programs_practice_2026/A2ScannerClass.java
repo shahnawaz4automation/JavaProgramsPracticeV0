@@ -11,7 +11,6 @@ public class A2ScannerClass {
 		int a = scan.nextInt();
 		System.out.print("Enter first number: ");
 		int b = scan.nextInt();
-		
 		int c = a + b;
 		
 		System.out.println("Sum of two numbers is = " + c);
