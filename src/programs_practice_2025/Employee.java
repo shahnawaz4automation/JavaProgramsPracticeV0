@@ -1,6 +1,7 @@
 package programs_practice_2025;
 
 public class Employee {
+	
 	String name;
 	String company;
 
