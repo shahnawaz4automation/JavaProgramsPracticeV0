@@ -15,11 +15,16 @@ public class Employee {
 		System.out.println();
 		System.out.println("I work at " + this.company);
 	}
+	
+	void introduce(int a) {
+		System.out.println("You gave input as: "+a);
+	}
 
 	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		Employee e = new Employee("Mohammed Shahnawaz", "KloudGin");
-		e = null;
+		//e = null;
 		e.introduce();
+		e.introduce(1);
 	}
 }
