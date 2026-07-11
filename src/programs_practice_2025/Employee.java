@@ -4,23 +4,12 @@ public class Employee {
 
 	String name;
 	String company;
-
+	static String organization = "Sam";
+	
 	Employee(String name, String company) {
 		this.name = name;
 		this.company = company;
 	}
-	Employee() {
-        System.out.println("Default Laptop");
-    }
-
-	Employee(String brand) {
-        System.out.println("Brand: " + brand);
-    }
-
-	Employee(String brand, int ram) {
-        System.out.println("Brand: " + brand);
-        System.out.println("RAM: " + ram);
-    }
 
 	void introduce() {
 		System.out.println("Hi, my name is " + this.name);
@@ -34,11 +23,12 @@ public class Employee {
 
 	@SuppressWarnings("null")
 	public static void main(String[] args) {
-		Employee e = new Employee("Mohammed Shahnawaz", "KloudGin");
-		Employee e1 = new Employee("string", 1);
-		
+		System.out.println(Employee.organization);
+		Employee e = new Employee("Mohammed Shahnawaz", "KloudGin");		
 		//e = null;
 		e.introduce();
 		e.introduce(1);
+		e.organization = "new";
+		System.out.println(Employee.organization);
 	}
 }
