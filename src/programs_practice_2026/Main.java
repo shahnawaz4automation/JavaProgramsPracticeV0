@@ -1,6 +1,6 @@
 package programs_practice_2026;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		// Create Department
@@ -28,6 +28,28 @@ public class main {
         System.out.println(e2.name);
         System.out.println(e2.department.departmentName);
         System.out.println(e2.department.managerName);
+        
+        // Create Employee 3
+        Employee e3 = new Employee();
+        e3.name = "Rahul";
+        e3.department = qa;
+        
+        qa.managerName = "David";
+        System.out.println();
+        
+        // Print Employee Details again
+        System.out.println("Output after changing the manager");
+        printEmployee(e1);
+        printEmployee(e2);
+        printEmployee(e3);
 	}
+	
+	static void printEmployee(Employee e) {
+		System.out.println("Employee Name : " + e.name);
+		System.out.println("Department    : " + e.department.departmentName);
+		System.out.println("Manager       : " + e.department.managerName);
+		System.out.println("------------------------------");
+	}
+	
 
 }
