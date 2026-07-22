@@ -10,7 +10,8 @@ public class ArraysDemo{
 			    "SQL"
 			};
 		for(int i=0;i<technologies.length;i++) {
-			System.out.println("Technology "+(i+1)+" : "+technologies[i]);
+			String technology = technologies[i];
+			System.out.println((i+1)+". "+technology);
 	}
 	}
 }
