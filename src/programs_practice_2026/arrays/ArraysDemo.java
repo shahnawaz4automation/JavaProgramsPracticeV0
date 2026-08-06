@@ -4,6 +4,7 @@ import programs_practice_2026.Employee;
 
 public class ArraysDemo {
 	public static void main(String[] args) {
+		
 		Employee[] employees = new Employee[3];
 		employees[0] = new Employee();
 		employees[0].name = "Shahnawaz";
