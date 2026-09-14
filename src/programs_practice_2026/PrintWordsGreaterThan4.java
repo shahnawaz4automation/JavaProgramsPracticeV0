@@ -12,7 +12,6 @@ public class PrintWordsGreaterThan4 {
 		names.add("John");
 		names.add("Sara");
 		names.add("Shahnawaz");
-
 		for (String name : names) {
 			if (name.length() > 4) {
 				System.out.println(name);
